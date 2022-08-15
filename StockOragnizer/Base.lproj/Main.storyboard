@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kIz-NG-lk5">
     <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -8,20 +8,72 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--홈-->
+        <scene sceneID="DPM-rT-gGc">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StockOragnizer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="uoh-Lv-z6Z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y9N-cf-K5o">
                         <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="zbW-kO-ZjE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="홈" id="n5j-sE-m34"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tmM-pH-PFh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="70"/>
+            <point key="canvasLocation" x="-383" y="410"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="knD-P8-uml">
+            <objects>
+                <tabBarController id="kIz-NG-lk5" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Eht-OF-wr6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uoh-Lv-z6Z" kind="relationship" relationship="viewControllers" id="eLw-ME-CHf"/>
+                        <segue destination="Fwa-vU-b7V" kind="relationship" relationship="viewControllers" id="UG8-fg-1pX"/>
+                        <segue destination="ZEb-fB-2hd" kind="relationship" relationship="viewControllers" id="xjA-0m-YjF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9cz-Fd-KgM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="248" y="-288"/>
+        </scene>
+        <!--제품 등록-->
+        <scene sceneID="uFh-2p-CGK">
+            <objects>
+                <viewController id="Fwa-vU-b7V" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bY6-Du-bqG">
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wdg-yy-ktL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="제품 등록" id="7Gx-sq-LXe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kp2-iL-CDr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="247" y="410"/>
+        </scene>
+        <!--재고 관리-->
+        <scene sceneID="0Tp-Ce-qei">
+            <objects>
+                <viewController id="ZEb-fB-2hd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KUI-aU-plQ">
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Lpm-8b-glM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="재고 관리" id="CNW-ie-hZj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bVl-j9-VDm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="866" y="410"/>
         </scene>
     </scenes>
     <resources>
