@@ -25,7 +25,7 @@ class HomeViewController: UIViewController {
     }
     
     func UIUpdate(){
-        todayOrderView.layer.borderColor = UIColor.white.cgColor
+        todayOrderView.layer.borderColor = UIColor.systemGreen.cgColor
         todayOrderView.layer.borderWidth = 2
         todayOrderView.layer.cornerRadius = 20
         todayOrderView.layer.shadowOpacity = 0.4
@@ -33,7 +33,7 @@ class HomeViewController: UIViewController {
         todayOrderView.layer.shadowRadius = 5
         todayOrderView.layer.masksToBounds = false
         
-        stockOrganizeView.layer.borderColor = UIColor.black.cgColor
+        stockOrganizeView.layer.borderColor = UIColor.white.cgColor
         stockOrganizeView.layer.borderWidth = 2
         stockOrganizeView.layer.cornerRadius = 20
         stockOrganizeView.layer.shadowOpacity = 0.4
@@ -41,7 +41,7 @@ class HomeViewController: UIViewController {
         stockOrganizeView.layer.shadowRadius = 5
         stockOrganizeView.layer.masksToBounds = false
         
-        stockInView.layer.borderColor = UIColor.black.cgColor
+        stockInView.layer.borderColor = UIColor.white.cgColor
         stockInView.layer.borderWidth = 2
         stockInView.layer.cornerRadius = 20
         stockInView.layer.shadowOpacity = 0.4
@@ -49,7 +49,7 @@ class HomeViewController: UIViewController {
         stockInView.layer.shadowRadius = 5
         stockInView.layer.masksToBounds = false
         
-        summarizeView.layer.borderColor = UIColor.black.cgColor
+        summarizeView.layer.borderColor = UIColor.white.cgColor
         summarizeView.layer.borderWidth = 2
         summarizeView.layer.cornerRadius = 20
         summarizeView.layer.shadowOpacity = 0.4

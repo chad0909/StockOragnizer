@@ -23,6 +23,9 @@
 		E5EE1E3928AA7DF50019F848 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE1E3828AA7DF50019F848 /* HomeViewController.swift */; };
 		E5EE1E3B28AA87860019F848 /* ProductAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE1E3A28AA87860019F848 /* ProductAddViewController.swift */; };
 		E5EE1E3D28AA87AC0019F848 /* StockOrganizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE1E3C28AA87AC0019F848 /* StockOrganizeViewController.swift */; };
+		E5EE1E3F28AA9DAA0019F848 /* StockTabmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE1E3E28AA9DAA0019F848 /* StockTabmanViewController.swift */; };
+		E5EE1E4128AA9DBC0019F848 /* ReceiveTabmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE1E4028AA9DBC0019F848 /* ReceiveTabmanViewController.swift */; };
+		E5EE1E4328AA9DC60019F848 /* AllTabmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE1E4228AA9DC60019F848 /* AllTabmanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		E5EE1E3828AA7DF50019F848 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E5EE1E3A28AA87860019F848 /* ProductAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAddViewController.swift; sourceTree = "<group>"; };
 		E5EE1E3C28AA87AC0019F848 /* StockOrganizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOrganizeViewController.swift; sourceTree = "<group>"; };
+		E5EE1E3E28AA9DAA0019F848 /* StockTabmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTabmanViewController.swift; sourceTree = "<group>"; };
+		E5EE1E4028AA9DBC0019F848 /* ReceiveTabmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveTabmanViewController.swift; sourceTree = "<group>"; };
+		E5EE1E4228AA9DC60019F848 /* AllTabmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTabmanViewController.swift; sourceTree = "<group>"; };
 		F4E41311D625488F2192B20C /* Pods-StockOragnizer-StockOragnizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockOragnizer-StockOragnizerUITests.debug.xcconfig"; path = "Target Support Files/Pods-StockOragnizer-StockOragnizerUITests/Pods-StockOragnizer-StockOragnizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB2623D66FF52D5E899A112D /* Pods_StockOragnizerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockOragnizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,7 +125,6 @@
 				847B5551876B4E4EEA90FFD8 /* Pods-StockOragnizerTests.debug.xcconfig */,
 				1111F05319484E52659C7B7D /* Pods-StockOragnizerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -159,6 +164,9 @@
 				E5EE1E3828AA7DF50019F848 /* HomeViewController.swift */,
 				E5EE1E3A28AA87860019F848 /* ProductAddViewController.swift */,
 				E5EE1E3C28AA87AC0019F848 /* StockOrganizeViewController.swift */,
+				E5EE1E3E28AA9DAA0019F848 /* StockTabmanViewController.swift */,
+				E5EE1E4028AA9DBC0019F848 /* ReceiveTabmanViewController.swift */,
+				E5EE1E4228AA9DC60019F848 /* AllTabmanViewController.swift */,
 			);
 			path = StockOragnizer;
 			sourceTree = "<group>";
@@ -419,13 +427,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EE1E3F28AA9DAA0019F848 /* StockTabmanViewController.swift in Sources */,
 				E5EE1E3928AA7DF50019F848 /* HomeViewController.swift in Sources */,
 				E5E195DA289CF82700EE0044 /* StockOragnizer.xcdatamodeld in Sources */,
 				E5E195D4289CF82700EE0044 /* ViewController.swift in Sources */,
 				E5E195D0289CF82700EE0044 /* AppDelegate.swift in Sources */,
 				E5EE1E3D28AA87AC0019F848 /* StockOrganizeViewController.swift in Sources */,
 				E5EE1E3B28AA87860019F848 /* ProductAddViewController.swift in Sources */,
+				E5EE1E4328AA9DC60019F848 /* AllTabmanViewController.swift in Sources */,
 				E5E195D2289CF82700EE0044 /* SceneDelegate.swift in Sources */,
+				E5EE1E4128AA9DBC0019F848 /* ReceiveTabmanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
