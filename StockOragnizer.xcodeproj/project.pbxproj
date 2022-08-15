@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558486BE094CEF19E85800D0 /* Pods_StockOragnizer_StockOragnizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A91297CF536B5D15FF1479E /* Pods_StockOragnizer_StockOragnizerUITests.framework */; };
+		6C7AB9C072111DC58701D033 /* Pods_StockOragnizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADBBC008828559A8FE68343 /* Pods_StockOragnizer.framework */; };
+		C39E964328C70D81D1C6DB1E /* Pods_StockOragnizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2623D66FF52D5E899A112D /* Pods_StockOragnizerTests.framework */; };
 		E5E195D0289CF82700EE0044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195CF289CF82700EE0044 /* AppDelegate.swift */; };
 		E5E195D2289CF82700EE0044 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195D1289CF82700EE0044 /* SceneDelegate.swift */; };
 		E5E195D4289CF82700EE0044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195D3289CF82700EE0044 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 		E5E195EA289CF82800EE0044 /* StockOragnizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195E9289CF82800EE0044 /* StockOragnizerTests.swift */; };
 		E5E195F4289CF82800EE0044 /* StockOragnizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195F3289CF82800EE0044 /* StockOragnizerUITests.swift */; };
 		E5E195F6289CF82800EE0044 /* StockOragnizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195F5289CF82800EE0044 /* StockOragnizerUITestsLaunchTests.swift */; };
+		E5EE1E3928AA7DF50019F848 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE1E3828AA7DF50019F848 /* HomeViewController.swift */; };
+		E5EE1E3B28AA87860019F848 /* ProductAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE1E3A28AA87860019F848 /* ProductAddViewController.swift */; };
+		E5EE1E3D28AA87AC0019F848 /* StockOrganizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE1E3C28AA87AC0019F848 /* StockOrganizeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1111F05319484E52659C7B7D /* Pods-StockOragnizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockOragnizerTests.release.xcconfig"; path = "Target Support Files/Pods-StockOragnizerTests/Pods-StockOragnizerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3752F7A4C9E64C7A6950FF12 /* Pods-StockOragnizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockOragnizer.debug.xcconfig"; path = "Target Support Files/Pods-StockOragnizer/Pods-StockOragnizer.debug.xcconfig"; sourceTree = "<group>"; };
+		847B5551876B4E4EEA90FFD8 /* Pods-StockOragnizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockOragnizerTests.debug.xcconfig"; path = "Target Support Files/Pods-StockOragnizerTests/Pods-StockOragnizerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A91297CF536B5D15FF1479E /* Pods_StockOragnizer_StockOragnizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockOragnizer_StockOragnizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFE788FDA612AAEAFA65D1A /* Pods-StockOragnizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockOragnizer.release.xcconfig"; path = "Target Support Files/Pods-StockOragnizer/Pods-StockOragnizer.release.xcconfig"; sourceTree = "<group>"; };
+		A7B4EB3C0C5309CBBF7B9266 /* Pods-StockOragnizer-StockOragnizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockOragnizer-StockOragnizerUITests.release.xcconfig"; path = "Target Support Files/Pods-StockOragnizer-StockOragnizerUITests/Pods-StockOragnizer-StockOragnizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DADBBC008828559A8FE68343 /* Pods_StockOragnizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockOragnizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E195CC289CF82700EE0044 /* StockOragnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockOragnizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E195CF289CF82700EE0044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E195D1289CF82700EE0044 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +64,11 @@
 		E5E195EF289CF82800EE0044 /* StockOragnizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockOragnizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E195F3289CF82800EE0044 /* StockOragnizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOragnizerUITests.swift; sourceTree = "<group>"; };
 		E5E195F5289CF82800EE0044 /* StockOragnizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOragnizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5EE1E3828AA7DF50019F848 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E5EE1E3A28AA87860019F848 /* ProductAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAddViewController.swift; sourceTree = "<group>"; };
+		E5EE1E3C28AA87AC0019F848 /* StockOrganizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOrganizeViewController.swift; sourceTree = "<group>"; };
+		F4E41311D625488F2192B20C /* Pods-StockOragnizer-StockOragnizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockOragnizer-StockOragnizerUITests.debug.xcconfig"; path = "Target Support Files/Pods-StockOragnizer-StockOragnizerUITests/Pods-StockOragnizer-StockOragnizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB2623D66FF52D5E899A112D /* Pods_StockOragnizerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockOragnizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7AB9C072111DC58701D033 /* Pods_StockOragnizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39E964328C70D81D1C6DB1E /* Pods_StockOragnizerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558486BE094CEF19E85800D0 /* Pods_StockOragnizer_StockOragnizerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BCDD40A3F6D219C551B4E38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DADBBC008828559A8FE68343 /* Pods_StockOragnizer.framework */,
+				9A91297CF536B5D15FF1479E /* Pods_StockOragnizer_StockOragnizerUITests.framework */,
+				FB2623D66FF52D5E899A112D /* Pods_StockOragnizerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F331E80114A676BA02F2D2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3752F7A4C9E64C7A6950FF12 /* Pods-StockOragnizer.debug.xcconfig */,
+				9FFE788FDA612AAEAFA65D1A /* Pods-StockOragnizer.release.xcconfig */,
+				F4E41311D625488F2192B20C /* Pods-StockOragnizer-StockOragnizerUITests.debug.xcconfig */,
+				A7B4EB3C0C5309CBBF7B9266 /* Pods-StockOragnizer-StockOragnizerUITests.release.xcconfig */,
+				847B5551876B4E4EEA90FFD8 /* Pods-StockOragnizerTests.debug.xcconfig */,
+				1111F05319484E52659C7B7D /* Pods-StockOragnizerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E5E195C3289CF82700EE0044 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				E5E195E8289CF82800EE0044 /* StockOragnizerTests */,
 				E5E195F2289CF82800EE0044 /* StockOragnizerUITests */,
 				E5E195CD289CF82700EE0044 /* Products */,
+				3F331E80114A676BA02F2D2B /* Pods */,
+				2BCDD40A3F6D219C551B4E38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +156,9 @@
 				E5E195DD289CF82800EE0044 /* LaunchScreen.storyboard */,
 				E5E195E0289CF82800EE0044 /* Info.plist */,
 				E5E195D8289CF82700EE0044 /* StockOragnizer.xcdatamodeld */,
+				E5EE1E3828AA7DF50019F848 /* HomeViewController.swift */,
+				E5EE1E3A28AA87860019F848 /* ProductAddViewController.swift */,
+				E5EE1E3C28AA87AC0019F848 /* StockOrganizeViewController.swift */,
 			);
 			path = StockOragnizer;
 			sourceTree = "<group>";
@@ -137,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5E195F9289CF82800EE0044 /* Build configuration list for PBXNativeTarget "StockOragnizer" */;
 			buildPhases = (
+				6AFC3822C33541FA6116F7F0 /* [CP] Check Pods Manifest.lock */,
 				E5E195C8289CF82700EE0044 /* Sources */,
 				E5E195C9289CF82700EE0044 /* Frameworks */,
 				E5E195CA289CF82700EE0044 /* Resources */,
+				FAC31CC9486D353AEEE267B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5E195FC289CF82800EE0044 /* Build configuration list for PBXNativeTarget "StockOragnizerTests" */;
 			buildPhases = (
+				0D65FE5915A1270008A22B14 /* [CP] Check Pods Manifest.lock */,
 				E5E195E1289CF82800EE0044 /* Sources */,
 				E5E195E2289CF82800EE0044 /* Frameworks */,
 				E5E195E3289CF82800EE0044 /* Resources */,
@@ -172,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5E195FF289CF82800EE0044 /* Build configuration list for PBXNativeTarget "StockOragnizerUITests" */;
 			buildPhases = (
+				9683025018078155A74AF1AD /* [CP] Check Pods Manifest.lock */,
 				E5E195EB289CF82800EE0044 /* Sources */,
 				E5E195EC289CF82800EE0044 /* Frameworks */,
 				E5E195ED289CF82800EE0044 /* Resources */,
+				DC29391D11D2AD26FAFB6F54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,14 +311,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D65FE5915A1270008A22B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StockOragnizerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AFC3822C33541FA6116F7F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StockOragnizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9683025018078155A74AF1AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StockOragnizer-StockOragnizerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC29391D11D2AD26FAFB6F54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockOragnizer-StockOragnizerUITests/Pods-StockOragnizer-StockOragnizerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockOragnizer-StockOragnizerUITests/Pods-StockOragnizer-StockOragnizerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockOragnizer-StockOragnizerUITests/Pods-StockOragnizer-StockOragnizerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC31CC9486D353AEEE267B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockOragnizer/Pods-StockOragnizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockOragnizer/Pods-StockOragnizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockOragnizer/Pods-StockOragnizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5E195C8289CF82700EE0044 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EE1E3928AA7DF50019F848 /* HomeViewController.swift in Sources */,
 				E5E195DA289CF82700EE0044 /* StockOragnizer.xcdatamodeld in Sources */,
 				E5E195D4289CF82700EE0044 /* ViewController.swift in Sources */,
 				E5E195D0289CF82700EE0044 /* AppDelegate.swift in Sources */,
+				E5EE1E3D28AA87AC0019F848 /* StockOrganizeViewController.swift in Sources */,
+				E5EE1E3B28AA87860019F848 /* ProductAddViewController.swift in Sources */,
 				E5E195D2289CF82700EE0044 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +597,7 @@
 		};
 		E5E195FA289CF82800EE0044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3752F7A4C9E64C7A6950FF12 /* Pods-StockOragnizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +626,7 @@
 		};
 		E5E195FB289CF82800EE0044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFE788FDA612AAEAFA65D1A /* Pods-StockOragnizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +655,7 @@
 		};
 		E5E195FD289CF82800EE0044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847B5551876B4E4EEA90FFD8 /* Pods-StockOragnizerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +676,7 @@
 		};
 		E5E195FE289CF82800EE0044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1111F05319484E52659C7B7D /* Pods-StockOragnizerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +697,7 @@
 		};
 		E5E19600289CF82800EE0044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E41311D625488F2192B20C /* Pods-StockOragnizer-StockOragnizerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +716,7 @@
 		};
 		E5E19601289CF82800EE0044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B4EB3C0C5309CBBF7B9266 /* Pods-StockOragnizer-StockOragnizerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
