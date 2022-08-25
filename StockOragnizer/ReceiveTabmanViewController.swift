@@ -9,21 +9,33 @@ import UIKit
 
 class ReceiveTabmanViewController: UIViewController {
 
+    @IBOutlet weak var receiveTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        receiveTableView.delegate = self
+        receiveTableView.dataSource = self
+        registerXib()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func registerXib() {
+        let nibName = UINib(nibName: "StockTableViewCell", bundle: nil)
+        receiveTableView.register(nibName, forCellReuseIdentifier: "StockTableViewCell")
     }
-    */
 
+
+}
+
+extension ReceiveTabmanViewController : UITableViewDelegate, UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "StockTableViewCell", for: indexPath)
+        return cell
+    }
+    
 }

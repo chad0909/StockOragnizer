@@ -10,6 +10,10 @@
 		558486BE094CEF19E85800D0 /* Pods_StockOragnizer_StockOragnizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A91297CF536B5D15FF1479E /* Pods_StockOragnizer_StockOragnizerUITests.framework */; };
 		6C7AB9C072111DC58701D033 /* Pods_StockOragnizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADBBC008828559A8FE68343 /* Pods_StockOragnizer.framework */; };
 		C39E964328C70D81D1C6DB1E /* Pods_StockOragnizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2623D66FF52D5E899A112D /* Pods_StockOragnizerTests.framework */; };
+		E554B16428B7499400923DF8 /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554B16228B7499400923DF8 /* StockTableViewCell.swift */; };
+		E554B16528B7499400923DF8 /* StockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E554B16328B7499400923DF8 /* StockTableViewCell.xib */; };
+		E554B16828B7995D00923DF8 /* AllStockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554B16628B7995D00923DF8 /* AllStockTableViewCell.swift */; };
+		E554B16928B7995D00923DF8 /* AllStockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E554B16728B7995D00923DF8 /* AllStockTableViewCell.xib */; };
 		E5E195D0289CF82700EE0044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195CF289CF82700EE0044 /* AppDelegate.swift */; };
 		E5E195D2289CF82700EE0044 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195D1289CF82700EE0044 /* SceneDelegate.swift */; };
 		E5E195D4289CF82700EE0044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195D3289CF82700EE0044 /* ViewController.swift */; };
@@ -53,6 +57,10 @@
 		9FFE788FDA612AAEAFA65D1A /* Pods-StockOragnizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockOragnizer.release.xcconfig"; path = "Target Support Files/Pods-StockOragnizer/Pods-StockOragnizer.release.xcconfig"; sourceTree = "<group>"; };
 		A7B4EB3C0C5309CBBF7B9266 /* Pods-StockOragnizer-StockOragnizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockOragnizer-StockOragnizerUITests.release.xcconfig"; path = "Target Support Files/Pods-StockOragnizer-StockOragnizerUITests/Pods-StockOragnizer-StockOragnizerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DADBBC008828559A8FE68343 /* Pods_StockOragnizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockOragnizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E554B16228B7499400923DF8 /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		E554B16328B7499400923DF8 /* StockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockTableViewCell.xib; sourceTree = "<group>"; };
+		E554B16628B7995D00923DF8 /* AllStockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStockTableViewCell.swift; sourceTree = "<group>"; };
+		E554B16728B7995D00923DF8 /* AllStockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllStockTableViewCell.xib; sourceTree = "<group>"; };
 		E5E195CC289CF82700EE0044 /* StockOragnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockOragnizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E195CF289CF82700EE0044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E195D1289CF82700EE0044 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +136,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E554B16128B7494D00923DF8 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E554B16228B7499400923DF8 /* StockTableViewCell.swift */,
+				E554B16328B7499400923DF8 /* StockTableViewCell.xib */,
+				E554B16628B7995D00923DF8 /* AllStockTableViewCell.swift */,
+				E554B16728B7995D00923DF8 /* AllStockTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		E5E195C3289CF82700EE0044 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +180,7 @@
 				E5E195DD289CF82800EE0044 /* LaunchScreen.storyboard */,
 				E5E195E0289CF82800EE0044 /* Info.plist */,
 				E5E195D8289CF82700EE0044 /* StockOragnizer.xcdatamodeld */,
+				E554B16128B7494D00923DF8 /* TableViewCell */,
 				E5EE1E3828AA7DF50019F848 /* HomeViewController.swift */,
 				E5EE1E3A28AA87860019F848 /* ProductAddViewController.swift */,
 				E5EE1E3C28AA87AC0019F848 /* StockOrganizeViewController.swift */,
@@ -297,8 +317,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E554B16928B7995D00923DF8 /* AllStockTableViewCell.xib in Resources */,
 				E5E195DF289CF82800EE0044 /* LaunchScreen.storyboard in Resources */,
 				E5E195DC289CF82800EE0044 /* Assets.xcassets in Resources */,
+				E554B16528B7499400923DF8 /* StockTableViewCell.xib in Resources */,
 				E5E195D7289CF82700EE0044 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,11 +449,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E554B16428B7499400923DF8 /* StockTableViewCell.swift in Sources */,
 				E5EE1E3F28AA9DAA0019F848 /* StockTabmanViewController.swift in Sources */,
 				E5EE1E3928AA7DF50019F848 /* HomeViewController.swift in Sources */,
 				E5E195DA289CF82700EE0044 /* StockOragnizer.xcdatamodeld in Sources */,
 				E5E195D4289CF82700EE0044 /* ViewController.swift in Sources */,
 				E5E195D0289CF82700EE0044 /* AppDelegate.swift in Sources */,
+				E554B16828B7995D00923DF8 /* AllStockTableViewCell.swift in Sources */,
 				E5EE1E3D28AA87AC0019F848 /* StockOrganizeViewController.swift in Sources */,
 				E5EE1E3B28AA87860019F848 /* ProductAddViewController.swift in Sources */,
 				E5EE1E4328AA9DC60019F848 /* AllTabmanViewController.swift in Sources */,
