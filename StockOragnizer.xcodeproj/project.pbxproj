@@ -14,6 +14,8 @@
 		E554B16528B7499400923DF8 /* StockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E554B16328B7499400923DF8 /* StockTableViewCell.xib */; };
 		E554B16828B7995D00923DF8 /* AllStockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554B16628B7995D00923DF8 /* AllStockTableViewCell.swift */; };
 		E554B16928B7995D00923DF8 /* AllStockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E554B16728B7995D00923DF8 /* AllStockTableViewCell.xib */; };
+		E5DEC9C128BCB480005A5E11 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DEC9C028BCB480005A5E11 /* Product+CoreDataClass.swift */; };
+		E5DEC9C328BCB481005A5E11 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DEC9C228BCB481005A5E11 /* Product+CoreDataProperties.swift */; };
 		E5E195D0289CF82700EE0044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195CF289CF82700EE0044 /* AppDelegate.swift */; };
 		E5E195D2289CF82700EE0044 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195D1289CF82700EE0044 /* SceneDelegate.swift */; };
 		E5E195D4289CF82700EE0044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E195D3289CF82700EE0044 /* ViewController.swift */; };
@@ -61,6 +63,8 @@
 		E554B16328B7499400923DF8 /* StockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockTableViewCell.xib; sourceTree = "<group>"; };
 		E554B16628B7995D00923DF8 /* AllStockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStockTableViewCell.swift; sourceTree = "<group>"; };
 		E554B16728B7995D00923DF8 /* AllStockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllStockTableViewCell.xib; sourceTree = "<group>"; };
+		E5DEC9C028BCB480005A5E11 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataClass.swift"; path = "/Users/077tech/Desktop/APP/StockOragnizer/StockOragnizer/Product+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		E5DEC9C228BCB481005A5E11 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataProperties.swift"; path = "/Users/077tech/Desktop/APP/StockOragnizer/StockOragnizer/Product+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		E5E195CC289CF82700EE0044 /* StockOragnizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockOragnizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E195CF289CF82700EE0044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E195D1289CF82700EE0044 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		E5E195CE289CF82700EE0044 /* StockOragnizer */ = {
 			isa = PBXGroup;
 			children = (
+				E5DEC9C028BCB480005A5E11 /* Product+CoreDataClass.swift */,
+				E5DEC9C228BCB481005A5E11 /* Product+CoreDataProperties.swift */,
 				E5E195CF289CF82700EE0044 /* AppDelegate.swift */,
 				E5E195D1289CF82700EE0044 /* SceneDelegate.swift */,
 				E5E195D3289CF82700EE0044 /* ViewController.swift */,
@@ -456,8 +462,10 @@
 				E5E195D4289CF82700EE0044 /* ViewController.swift in Sources */,
 				E5E195D0289CF82700EE0044 /* AppDelegate.swift in Sources */,
 				E554B16828B7995D00923DF8 /* AllStockTableViewCell.swift in Sources */,
+				E5DEC9C128BCB480005A5E11 /* Product+CoreDataClass.swift in Sources */,
 				E5EE1E3D28AA87AC0019F848 /* StockOrganizeViewController.swift in Sources */,
 				E5EE1E3B28AA87860019F848 /* ProductAddViewController.swift in Sources */,
+				E5DEC9C328BCB481005A5E11 /* Product+CoreDataProperties.swift in Sources */,
 				E5EE1E4328AA9DC60019F848 /* AllTabmanViewController.swift in Sources */,
 				E5E195D2289CF82700EE0044 /* SceneDelegate.swift in Sources */,
 				E5EE1E4128AA9DBC0019F848 /* ReceiveTabmanViewController.swift in Sources */,
